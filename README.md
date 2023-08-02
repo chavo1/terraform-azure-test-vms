@@ -18,7 +18,7 @@ cd terraform-azure-test-vms
 ```
 - rename the example.terraform.tfvars
 ```
-rm example.terraform.tfvars terraform.tfvars
+mv example.terraform.tfvars terraform.tfvars
 ```
 - change it on your needs - "terraform.tfvars" will overwrite the default variables 
 - initialize terraform 
